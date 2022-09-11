@@ -23,8 +23,8 @@ export const InputPlus: React.FC<InputPlusProps> = ({
                 onChange={(evt) => {
                     setInputValue(evt.target.value);
                 }}
-                onKeyDown={() => {
-                    if (EventTarget.key === 'Enter') {
+                onKeyDown={(evt) => {
+                    if (evt.key === 'Enter') {
                         addTask();
                     }
                 }}
