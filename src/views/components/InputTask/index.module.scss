@@ -30,7 +30,11 @@
         border: none;
         padding: 5px;
         background: none;
-        box-shadow: 0 4px 0 -3px #3F72AF;
+        box-shadow: 0 4px 0 -3px #007fff;
+
+        &:focus {
+            outline: none;
+        }
     }
 
     &Edit, &Remove, &Save {

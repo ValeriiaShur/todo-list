@@ -12,11 +12,11 @@ export const InputPlus: React.FC<InputPlusProps> = ({
     const addTask = useCallback(() => {
         onAdd(inputValue);
         setInputValue('');
-    }, [inputValue])
+    }, [inputValue]);
     
     return (
         <div className={styles.inputPlus}>
-            <input 
+            <input
                 type="text"
                 className={styles.inputPlusValue}
                 value={inputValue}

@@ -2,8 +2,8 @@
 
 body {
     font: 16px/1.4 'Roboto', sans-serif;
-    background: #3F72AF;
-    min-height: 100vh;
+    background: rgb(0,127,255);
+    background: radial-gradient(circle, rgba(0,127,255,1) 10%, rgba(199,184,254,1) 100%);    min-height: 100vh;
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
