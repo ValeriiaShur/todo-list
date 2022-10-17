@@ -1,8 +1,12 @@
 .article {
-    min-width: 600px;
     background: white;
     border-radius: 20px;
     padding: 20px 50px 30px;
+
+    @media (min-width: 640px) {
+        max-width: 600px;
+        margin: 0 auto;
+    }
 
     &Title {
         font-size: 40px;
