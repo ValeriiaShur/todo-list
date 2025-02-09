@@ -1,5 +1,5 @@
 # Repo info
-Simple To Do app: [valeriiashur.github.io/todo-list/](https://valeriiashur.github.io/todo-list/)
+Simple To Do app
 
 
 **Tech Stack**
